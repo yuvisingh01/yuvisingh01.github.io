@@ -1,0 +1,111 @@
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color:  rgba(255, 255, 255, 0.808);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    margin: 0 16px 0 56px;
+    border-radius: 5px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family:'Lato',sans-serif;
+    font-weight: 900;
+}
+
+.slider{
+    margin: 12px auto;
+    overflow: hidden;
+    /* margin: auto; */
+    /* padding: 0 25px 0 0 ; */
+    width: 70vw;
+}
+
+.cards{
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.card{
+    max-width: 91vw;
+    margin:37px  auto;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.card h2{
+    font-family: 'Lato',sans-serif;
+}
+
+.item{
+    margin: 0 15px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family:'Lato',sans-serif;
+}
